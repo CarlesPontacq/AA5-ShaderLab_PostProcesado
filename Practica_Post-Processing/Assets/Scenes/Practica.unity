@@ -656,6 +656,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 201706615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &610998767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610998769}
+  - component: {fileID: 610998768}
+  m_Layer: 0
+  m_Name: PostProcessController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &610998768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610998767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85d36269d8756940b4d5a52bf70b73c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PostProcessController
+  effects:
+  - material: {fileID: 2100000, guid: 0804dceb65b304840b7c4c6264dbf2a2, type: 2}
+    keyword: _ENABLE_PIXELATED
+    key: 41
+  - material: {fileID: 2100000, guid: 0288e6209e9448342a1bf5fc2cd7f902, type: 2}
+    keyword: _ENABLE_COLOR_GRADIENT
+    key: 42
+  - material: {fileID: 2100000, guid: 13b4bc9b9c9a25c44bdf184a01575e7c, type: 2}
+    keyword: _ENABLE_CHROMATIC_ABERRATION
+    key: 43
+  - material: {fileID: 2100000, guid: 7ac07ec0324a37c448da87359c35416f, type: 2}
+    keyword: _ENABLE_CRT_LINES
+    key: 44
+  - material: {fileID: 2100000, guid: 511b990dc49cf6f45b1252656bbe1caa, type: 2}
+    keyword: _ENABLE_LENS_DISTORTION
+    key: 45
+  - material: {fileID: 2100000, guid: 8ae8228dbb4a8b341869d7526c65f47f, type: 2}
+    keyword: _ENABLE_VIGNETTE
+    key: 46
+--- !u!4 &610998769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610998767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.12837, y: -36.49531, z: 271.94226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894822542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,3 +2937,4 @@ SceneRoots:
   - {fileID: 1570689920}
   - {fileID: 139766769}
   - {fileID: 187911120}
+  - {fileID: 610998769}
