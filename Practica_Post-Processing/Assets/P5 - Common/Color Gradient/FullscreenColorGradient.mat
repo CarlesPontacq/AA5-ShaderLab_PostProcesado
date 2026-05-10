@@ -110,6 +110,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _ENABLE_COLOR_GRADIENT: 0
     - _Enable: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
