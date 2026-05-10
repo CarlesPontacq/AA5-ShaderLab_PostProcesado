@@ -23,8 +23,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MAOHS:
+        m_Texture: {fileID: 2800000, guid: ad35bcf99562b424293bd326416f54c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 848860e45e2653c4081823ad5f8d1354, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 7ec9e51b8f9c824409eb9518e23efbe0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -34,6 +42,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Tiling: 1
+    - _UseLocalSpace: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
