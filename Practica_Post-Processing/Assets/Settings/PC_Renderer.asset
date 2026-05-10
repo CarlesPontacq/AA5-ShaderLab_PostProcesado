@@ -70,8 +70,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
   m_Active: 1
   injectionPoint: 450
-  fetchColorBuffer: 1
-  requirements: 0
+  fetchColorBuffer: 0
+  requirements: 4
   passMaterial: {fileID: 2100000, guid: 099e3351956225e4e93d5883aa282e79, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0

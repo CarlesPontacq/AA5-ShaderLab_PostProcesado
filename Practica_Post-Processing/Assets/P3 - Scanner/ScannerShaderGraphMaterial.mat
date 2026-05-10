@@ -37,13 +37,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LineAmount: 0.283
-    - _MaxEffectDistance: 100
-    - _ScanFrecuency: 0.2
-    - _ScanSize: 0.963
+    - _LineAmount: 0.905
+    - _MaxEffectDistance: 88.29
+    - _ScanFrecuency: 100
+    - _ScanSize: 1
     - _Speed: 1
-    - _WorldScale: 1
+    - _WorldScale: 100
+    - _testValue: 0
     m_Colors:
-    - _Color: {r: 0.89433956, g: 0.26193368, b: 0.11980776, a: 1}
+    - _Color: {r: 0.99215686, g: 0.21537599, b: 0.05098037, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
